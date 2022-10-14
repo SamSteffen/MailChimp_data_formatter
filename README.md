@@ -4,13 +4,13 @@ A step-by-step guide to building a python function that cleans and transforms mu
 ## Overview
 MailChimp is a useful marketing tool utilized by many businesses and organizations for a variety of reasons. Depending on one's subscription tier and workplace authorizations, harvesting data from MailChimp can vary in difficulty and complexity. For those who may use MailChimp for multiple campaigns and are not authorized to access the data from campaigns save as individual csv exports, you're probably familiar with, and frustrated by, the following output format:
 
-[pic]
+<img width="249" alt="raw_data_before" src="https://user-images.githubusercontent.com/104729703/195905286-fbf2fb60-e809-4ba8-8b88-53fa9e993bbb.png">
 
 While this report certainly provides some useful metrics, it's of little use to us if our intention is to compile this data with more like it for further, long-term analysis.
 
 This repo is intended to provide a step-by-step guide explaining how to build a python function that will allow you to automate the otherwise painstaking process of manually reformatting multiple datasets like the one shown above, into a single, compiled, user-friendly format, like this:
 
-[pic_final]
+<img width="872" alt="Cleaned_data_csv_pic" src="https://user-images.githubusercontent.com/104729703/195905312-fd5c4906-6175-41a6-97de-b5568e40927b.png">
 
 ## Directory Set-Up
 This function utilizes the following file structure:
@@ -19,11 +19,11 @@ This function utilizes the following file structure:
     > input
     > output
 
-[pic]
+<img width="224" alt="file_structure_pic" src="https://user-images.githubusercontent.com/104729703/195905334-f2272d65-8e84-40ae-b52c-33747b1f7697.png">
 
 To begin, download as many csvs as you'd like from your MailChimp email campaigns and store them in the input directory. Once finished, the input folder should resemble the following:
 
-[csvs_pic]
+<img width="109" alt="multiple_csvs_pic" src="https://user-images.githubusercontent.com/104729703/195905345-b3e1df0c-db94-46b2-a1fa-82b659be3c3f.png">
 
 The output directory should remain empty.
 
@@ -303,4 +303,5 @@ clean_csvs(csvs_data_file)
 ```
 The output of this will yield a csv file called 'Mail_Chimp_data_cleaned.csv' and should resemble the following:
 
-[compiled_data_pic]
+<img width="872" alt="Cleaned_data_csv_pic" src="https://user-images.githubusercontent.com/104729703/195905374-d1a73dd7-ff9a-4e8f-8bc8-e713b86a5fa0.png">
+
