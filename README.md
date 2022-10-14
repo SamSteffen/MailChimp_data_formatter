@@ -15,9 +15,9 @@ This repo is intended to provide a step-by-step guide explaining how to build a 
 ## Directory Set-Up
 This function utilizes the following file structure:
 
-> directory
-    > input
-    > output
+> directory     
+>> input     
+>> output
 
 <img width="224" alt="file_structure_pic" src="https://user-images.githubusercontent.com/104729703/195905334-f2272d65-8e84-40ae-b52c-33747b1f7697.png">
 
