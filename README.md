@@ -296,7 +296,6 @@ def clean_csvs(csvs_data_file):
 
 ### Step 3: Call the function
 ```python
-#STEP 31: Call the function
 csvs_data_file = '..directory\\input'
 
 clean_csvs(csvs_data_file)
