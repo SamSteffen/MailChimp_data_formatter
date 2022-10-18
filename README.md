@@ -148,7 +148,7 @@ def clean_csvs(csvs_data_file):
             data_row['Type:'] = data_row['Type:'].str.split(" ", expand=True)[2]  
 
         except KeyError:
-            email_type = "Daily"
+            email_type = "Inspect"
             data_row['Type'] = email_type
 
         # convert datetime columns into appropriate datatype
